@@ -45,8 +45,7 @@ const CampgroundSchema = new Schema ({
 
 // Adding a method to images that allows us to get trimmed thumbnails from cloudinary
 CampgroundSchema.virtual('properties.popUpMarkup').get(function() {
-    return `<a href="/campgrounds/${this._id}">${this.title}</a></strong>
-        <p>${this.description.substring(0,30)}...</p>`
+    return `<a href="/campgrounds/${this._id}">${this.title}</a></strong><p>${this.description.substring(0,30)}...</p>`
 });
 
 CampgroundSchema.post('findOneAndDelete', async function (doc) {
