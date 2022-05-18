@@ -161,7 +161,7 @@ app.use((req, res, next) => {
 app.use(express.static(__dirname + '/node_modules/bootstrap/dist'));
 
 app.get('/fakeUser', async( req, res) => {
-    const user = new User({ email: 'colt@gmail.com', username: 'colt' });
+    const user = new User({ email: 'drega@gmail.com', username: 'drega' });
     const newUser = await User.register(user, 'chicken');
     res.send(newUser);
 })
