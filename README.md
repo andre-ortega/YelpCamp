@@ -7,3 +7,12 @@ The Colt Steele Web Development Bootcamp is a well-known program for teaching th
 ## Intro
 
 After many hours of lessons providing the logic on which the web operates, they all come together in creating YelpCamp. During my development of this application, I chose to add a degree of difficulty by deviating from the provided instructions given for a Windows or Mac development environment and instead decided to create the app using Linux. WSL2 for Windows now (to my amazement) provides all of the functionality needed to run native Linux programs that I enjoy using. Therefore, aside from the Javascript and web framework languages used to create YelpCamp, I was assisted by some of my Python and Bash scripts used to speed up the processes of file organization, terminal operations, and Git workflows.
+
+## Technologies
+
+The project uses many technologies that ensure that the app is fully functional and hosted entirely in the cloud. These services include:
+
+
+## Live Demo
+
+There is a current Live Demo of this project on one of my Heroku distros, available [here](https://nameless-scrubland-88013.herokuapp.com/)
