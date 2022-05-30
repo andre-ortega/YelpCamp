@@ -11,9 +11,18 @@ After many hours of lessons providing the logic on which the web operates, they 
 ## Technologies
 
 The project uses many technologies that ensure that the app is fully functional and hosted entirely in the cloud. These services include
-- MongoDB ATLAS - a cloud service
+
+- [MongoDB ATLAS](https://www.mongodb.com/atlas/database) - Cloud database service used to store information regarding users, sessions, campgrounds, and reviews.
+- [Mongoose](https://mongoosejs.com/docs/) - Object Data Modeling library used to simplify database operations via a data mapping layer to define relational models.
+- [Cloudinary](https://cloudinary.com/) - Cloud image-hosting service used to store images of specific campgrounds, the links to which are stored on the Mongo Atlas database.
+- [NodeJS](https://nodejs.org/en/) - The quintessential javascript runtime engine that runs the server code.
+- [Express](https://expressjs.com/) - Lightweight yet robust web application framework that manages the requests, routes, and responses surrounding web traffic.
+- [EJS](https://ejs.co/) - Templating framework used to dynamically render web pages that fluctuate based on the data received from other cloud services.
+- [Passport]() -
+- [Mapbox]() - 
 
 ## Live Demo
 
-Please be respectful of any data you input into the live demo.
-The demo is available on one of my Heroku distros, [here](https://nameless-scrubland-88013.herokuapp.com/). You can operate the site just like you would to test the operations of a basic Yelp clone used specifically for campsites. You may create an account, create a site, edit/delete your own sites, and leave reviews.
+Please be respectful of data you input into the live demo.
+
+The demo is available on one of my Heroku distros, [here](https://nameless-scrubland-88013.herokuapp.com/). You can operate the site just like you would to test the operations of a basic Yelp clone used specifically for campsites. You may create an account, create a site, edit/delete your own sites, and leave reviews on others.
