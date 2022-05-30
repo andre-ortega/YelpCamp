@@ -10,9 +10,10 @@ After many hours of lessons providing the logic on which the web operates, they 
 
 ## Technologies
 
-The project uses many technologies that ensure that the app is fully functional and hosted entirely in the cloud. These services include:
-
+The project uses many technologies that ensure that the app is fully functional and hosted entirely in the cloud. These services include
+- MongoDB ATLAS - a cloud service
 
 ## Live Demo
 
-There is a current Live Demo of this project on one of my Heroku distros, available [here](https://nameless-scrubland-88013.herokuapp.com/)
+Please be respectful of any data you input into the live demo.
+The demo is available on one of my Heroku distros, [here](https://nameless-scrubland-88013.herokuapp.com/). You can operate the site just like you would to test the operations of a basic Yelp clone used specifically for campsites. You may create an account, create a site, edit/delete your own sites, and leave reviews.
