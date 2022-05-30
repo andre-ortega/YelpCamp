@@ -6,7 +6,7 @@ The Colt Steele Web Development Bootcamp is a well-known program for teaching th
 
 ## Intro
 
-After many hours of lessons providing the logic on which the web operates, they all come together in creating YelpCamp. During my development of this application, I chose to add a degree of difficulty by deviating from the provided instructions given for a Windows or Mac development environment and instead decided to create the app using Linux. WSL2 for Windows now (to my amazement) provides all of the functionality needed to run native Linux programs that I enjoy using. Therefore, aside from the Javascript and web framework languages used to create YelpCamp, I was assisted by some of my Python and Bash scripts used to speed up the processes of file organization, terminal operations, and Git workflows.
+After many hours of lessons providing the groundwork needed to understand web applications, they all come together in creating YelpCamp. During my development of this application, I chose to add a degree of difficulty by deviating from the provided instructions given for a Windows or Mac development environment and instead decided to create the app using Linux. WSL2 for Windows now (to my amazement) provides all of the functionality needed to run native Linux programs that I enjoy using. Therefore, aside from the Javascript and web framework languages used to create YelpCamp, I was assisted by some of my Python and Bash scripts used to speed up the processes of file organization, terminal operations, and Git workflows.
 
 ## Technologies
 
@@ -18,11 +18,13 @@ The project uses many technologies that ensure that the app is fully functional 
 - [NodeJS](https://nodejs.org/en/) - The quintessential javascript runtime engine that runs the server code.
 - [Express](https://expressjs.com/) - Lightweight yet robust web application framework that manages the requests, routes, and responses surrounding web traffic.
 - [EJS](https://ejs.co/) - Templating framework used to dynamically render web pages that fluctuate based on the data received from other cloud services.
-- [Passport]() -
-- [Mapbox]() - 
+- [Passport](https://www.passportjs.org/) - Authentication middleware providing modern methods for secure logins using hashed passwords and salts stored in Mongo Atlas.
+- [Mapbox](https://www.mapbox.com) - This precise data location and visualizer tool is used to interactively display the locations of campgrounds over a U.S. map.
+- [Express-Session](https://www.npmjs.com/package/express-session) - Unmodifiable by users, the session cookie tracks specific users within the incoming request body to ensure relevant and secure server interactions are upheld.
+- [Helmet](https://github.com/helmetjs/helmet) - This security middleware prevents unwanted server requests from being created outside of a specified set of allowed URLs.
 
 ## Live Demo
 
-Please be respectful of data you input into the live demo.
+Please be respectful of any data you input into the live demo and adhere to typical social rules.
 
-The demo is available on one of my Heroku distros, [here](https://nameless-scrubland-88013.herokuapp.com/). You can operate the site just like you would to test the operations of a basic Yelp clone used specifically for campsites. You may create an account, create a site, edit/delete your own sites, and leave reviews on others.
+The demo is available on one of my Heroku distros, [here](https://nameless-scrubland-88013.herokuapp.com/). You can operate the site just like you would to test the operations of a basic Yelp clone used specifically for campsites. You may create an account, a campsite, edit/delete your campgrounds, and leave reviews on other sites.
