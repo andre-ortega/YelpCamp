@@ -31,7 +31,7 @@ module.exports.createCampground = async (req, res, next) => {
     // req.user._id is added automatically, covered in auth, for campground/author association
     campground.author = req.user._id;
 
-    //    console.log(req.body);
+    // console.log(req.body);
     await campground.save();
     // console.log(campground);
     req.flash('success', 'Successfully made a new campground!')
