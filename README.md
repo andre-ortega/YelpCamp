@@ -25,8 +25,8 @@ The project uses many technologies that ensure that the app is fully functional 
 
 ## Live Demo
 
-Please be respectful of any data you input into the live demo and adhere to typical social rules.
-
 [ Update Jan 2023: Heroku no longer supports free site hosting. As such, I will not be paying $60/yr for a demo app while I am employed. Therefore, the link is currently dead ]
+
+Please be respectful of any data you input into the live demo and adhere to typical social rules.
 
 The demo is available on one of my Heroku distros, [here](https://nameless-scrubland-88013.herokuapp.com/). It will take a few moments to load due to it being hosted in a free dyno, and therefore does not have permanent server resources, but instead is given dynamically allocated resources by request. You can interact with the site just as you would any to test the operations of a basic Yelp clone used for specifically for campsites. You may create an account, a campsite, edit/delete your campgrounds, and leave reviews on other sites.
