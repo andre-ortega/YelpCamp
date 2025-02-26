@@ -26,7 +26,7 @@ The project uses many technologies that ensure that the app is fully functional 
 ## Live Demo
 
 [ Update Jan 2023: Heroku no longer supports free site hosting. As such, I am no longer 
-hosting this demo app. Therefore, this link is dead ]
+hosting this demo app, so this link is dead ]
 
 Please be respectful of any data you input into the live demo and adhere to typical social rules.
 
